@@ -19,7 +19,13 @@ const TodoList = ({ todos, onDeleteTodo, onToggleCompleted }) => (
           onChange={() => onToggleCompleted(id)}
         />
         <p className="TodoList__text">{text}</p>
-        <button onClick={() => onDeleteTodo(id)}>Видалити</button>
+        <button
+          type="button"
+          className="TodoList__btn"
+          onClick={() => onDeleteTodo(id)}
+        >
+          Видалити
+        </button>
       </li>
     ))}
   </ul>
