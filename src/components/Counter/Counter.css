@@ -1,0 +1,65 @@
+.counter {
+  width: 400px;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.counter-controls > button {
+  border: none;
+  padding: 10px 15px;
+  background-color: teal;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: inherit;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 1px 2px 2px 0 rgb(0 0 0 / 0.5);
+  transition: box-shadow 250ms linear;
+}
+
+.counter-controls > button:active {
+  box-shadow: 2px 5px 2px 0 rgb(0 0 0 / 0.5);
+}
+
+.counter-value {
+  margin-right: 15px;
+  margin-left: 15px;
+  font-size: 64px;
+  font-family: monospace;
+  text-align: center;
+}
+
+/* .counter {
+  width: 300px;
+  height: auto;
+  padding: 20px;
+  outline: 1px solid darkgrey;
+  text-align: center;
+}
+
+.counter-value {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.counter-controls {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  background-color: rgb(46, 136, 106);
+  border-color: transparent;
+  border-radius: 6px;
+  &:hover {
+    background-color: rgb(4, 158, 107);
+  }
+} */
